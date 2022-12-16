@@ -1,0 +1,230 @@
+.about-me {
+    padding: 6rem 0;
+    overflow: hidden;
+}
+
+.about-me .about-heading {
+    color: #25b79f;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    overflow: hidden;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-content img {
+    height: 200px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+
+}
+
+.about-content p {
+    font-size: 18px;
+    padding: 1rem;
+}
+
+.less-seen {
+    color: #147565;
+    cursor: pointer;
+}
+
+.less-seen:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+.skills .skills-heading {
+    font-size: 15px;
+    font-weight: 600;
+    color: #25b79f;
+    text-align: center;
+}
+
+.about-me .about-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about-content .left-content {
+    flex-basis: 45%;
+    text-align: center;
+}
+
+.about-content .right-content {
+    flex-basis: 45%;
+}
+
+
+.skills-heading h1{
+    overflow: hidden;
+    margin-top: 3rem;
+    font-size: 1.2rem;
+}
+
+
+.skills-bar .bar .info span {
+    font-size: 15px;
+    font-weight: 500;
+    color: #07374a;
+    
+}
+
+
+.skills-bar .bar .progress-line {
+    height: 15px;
+    transform: scaleX(0);
+    transform-origin: left;
+    animation: animate 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+
+@keyframes animate {
+    100% {
+        transform: scaleX(1);
+    }
+}
+
+.work-arrow-2 a {
+    font-size: 1rem;
+    text-decoration: none;
+    color: #25b79f;
+    display: none;
+}
+.gallery{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+}
+.gallery h2{
+    color: #25b79f;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-top: 3rem;
+    overflow: hidden;
+}
+.gallery img{
+    width: 100%;
+    margin: auto;
+}
+
+@media screen and (min-width:600px) {
+    .about-me {
+        background-color: #07374a;
+        padding: 6rem 0;
+        overflow: hidden;
+    }
+
+    .about-me .about-heading {
+        color: #25b79f;
+        font-size: 30px;
+        font-weight: 600;
+        text-align: center;
+        overflow: hidden;
+    }
+
+    .about-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-content img {
+        height: 200px;
+        width: 150px;
+        object-fit: cover;
+        border-radius: 50%;
+
+    }
+
+    .about-content p {
+        font-size: 23px;
+        color: #f0f0e6;
+        padding: 0 2.3rem;
+        text-align: center;
+    }
+
+    .less-seen {
+        color: blue;
+        cursor: pointer;
+    }
+
+    .less-seen:hover {
+        color: rgb(243, 10, 10);
+        cursor: pointer;
+    }
+
+    .skills .skills-heading {
+        /* font-size: 2rem; */
+        font-size: 30px;
+        font-weight: 600;
+        color: #25b79f;
+        text-align: center;
+    }
+
+    .about-me .about-content {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .about-content .left-content {
+        flex-basis: 45%;
+        text-align: center;
+    }
+
+    .about-content .right-content {
+        flex-basis: 45%;
+    }
+
+    .skills-heading {
+        overflow: hidden;
+    }
+
+    .skills-bar {
+        padding: 25px 30px;
+        overflow: hidden;
+    }
+
+    .skills-bar .bar {
+        margin: 25px 0;
+        overflow: hidden;
+    }
+
+    .skills-bar .bar .info span {
+        font-size: 1rem;
+        font-weight: 500;
+        overflow: hidden;
+        margin-bottom: 10px;
+    }
+
+    .skills-bar .bar .progress-line {
+
+        height: 20px;
+        border-radius: 10px;
+        transform: scaleX(0);
+        transform-origin: left;
+        animation: animate 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+    }
+
+    @keyframes animate {
+        100% {
+            transform: scaleX(1);
+        }
+    }
+
+    .work-arrow {
+        margin: 3rem 0;
+    }
+
+    .work-arrow a {
+        font-size: 1.5rem;
+        text-decoration: none;
+        color: #25b79f;
+    }
+}

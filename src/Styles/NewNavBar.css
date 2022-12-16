@@ -1,0 +1,53 @@
+.myoffcanvas{
+    box-sizing: border-box;
+
+}
+.mycanvas{
+    color: white;
+    
+
+}
+.mycanvasheader{
+    z-index: 500;
+    background: #07374a;
+}
+
+.mycanvasbody{
+    z-index: 500;
+    text-align: left;
+    background: #07374a;
+    background-image: url(../Assets/ActiveWorld\ Map.svg);
+    overflow-y: hidden;
+    background-blend-mode: soft-light;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-position-y: bottom;  
+}
+.mycanvaslink{
+    text-align: left;
+    width: 100%;
+
+}
+.mycanvaslinks{
+    margin-left: -2rem;
+    padding-bottom: 20rem;
+    width: 100%;
+    
+}
+.mycanvaslinks a{
+    font-size: 1rem;
+    font-weight: 600;
+    color:  #25b79f;
+    overflow: hidden;
+    text-decoration: none;   
+}
+.mynavsection{
+    border-bottom: 1px solid #63797570;
+    padding: 1rem 0rem;
+}
+.madewiths a,
+.madewiths{
+    text-align: center;
+    color: #25b79f;
+    text-decoration: none;
+}

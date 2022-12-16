@@ -1,0 +1,182 @@
+.contacts {
+    background: #07374a;
+    height: 100%;
+    width: 100%;
+    background-image: url(../Assets/ActiveWorld\ Map.svg);
+    overflow-y: hidden;
+    background-blend-mode: soft-light;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-position-y: bottom;  
+}
+
+.contact-content {
+    top: 10%;
+    overflow: hidden;
+    margin: auto;
+    width: 95%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 500;
+}
+
+.contact-content h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color:  #25b79f;
+    padding-bottom: 0.5rem;
+    overflow: hidden;
+    padding-top: 6rem;
+    margin: 2rem;
+}
+
+.contact-content .intouch {
+    color: #f0f0e6;
+    padding-bottom: 0.2rem;
+    font-size: 1rem;
+}
+
+#formcontents {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 80%;
+    margin: auto;
+}
+
+#formcontents input {
+    padding: 0.5rem;
+    font-size: 14px;
+
+}
+
+#messenger {
+    padding-left: 0.5rem;
+    font-size: 15px;
+}
+
+.submitbutton {
+    background-color: #25b79f;
+    width: 50%;
+    font-size: 15px;
+    border: none;
+}
+
+.submitbutton:hover {
+    background-color: #c8f3ec;
+    border: none;
+
+}
+
+.socialmedia {
+    text-align: center;
+    width: 75%;
+    margin: auto;
+    overflow: hidden;
+    z-index: 500;
+}
+
+.contact-content .links p{
+    color: #ffffff;
+    padding: 0.5rem;
+    padding-top: 1.2rem;
+    padding-bottom: 0.5rem;
+    font-size: 1rem;
+}
+
+.mail {
+    color: white;
+    /* padding: 0.1rem; */
+    font-size: 1rem;
+    overflow: hidden;
+}
+.linking{
+    color: #ffffff;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+.mails{
+    margin-top: -2rem;
+}
+
+.contact-content a {
+    text-decoration: none;
+    color: #25b79f;
+    padding: 0.5rem;
+    transition: 0.3s ease-in-out;
+}
+
+.contact-content a:hover {
+    color: #f0f0e6;
+}
+
+.madewith {
+    overflow: hidden;
+    color: white;
+    margin: 2rem 0rem;
+}
+.gothere{
+    color: #ffffff;
+    text-align: left;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
+@media screen and (min-width:600px) {
+    .contacts {
+        background-color: #07374a;
+        /* position: relative; */
+        height: 100%;
+        overflow-y: hidden;
+    }
+
+    .contact-content {
+        margin: 2rem;
+        overflow: hidden;
+        text-align: center;
+    }
+    .sub-contact-content{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        width: 100%;
+    }
+
+    .contact-content h2 {
+        font-size: 2.5rem;
+        font-weight: 400;
+        color: #25b79f;
+        padding-bottom: 0.5rem;
+        overflow: hidden;
+    }
+
+    .contact-content .mail {
+        color: #f0f0e6;
+        padding-bottom: 0.2rem;
+        font-size: 1rem;
+    }
+
+    .contact-content .links {
+        color: #25b79f;
+        padding: 0.5rem;
+        padding-bottom: 1.8rem;
+        font-size: 1rem;
+    }
+
+    .contact-content a {
+        text-decoration: none;
+        color: #25b79f;
+        padding: 0.5rem;
+        transition: 0.3s ease-in-out;
+    }
+
+    .contact-content a:hover {
+        color: #f0f0e6;
+    }
+   .sub-contact-content2{
+    margin-top: 6rem;
+   }
+
+}

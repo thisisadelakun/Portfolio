@@ -1,0 +1,11 @@
+.progressive{
+    width: 90%;
+    margin: auto;
+}
+@media screen and (min-width:600px) {
+    .progressive{
+        width: 70%;
+        margin: auto;
+    }
+    
+}

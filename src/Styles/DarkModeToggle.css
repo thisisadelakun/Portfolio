@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --color-dark: #21213f;
+}
+
+body{
+    transition: 0.3s;  
+ 
+}
+
+body.dark {
+    background:   #07374a;
+    color:  #25b79f;
+}
+
+.inputting {
+    display: none;
+}
+
+.switch {
+    overflow: hidden;
+    display: flex;
+    width: 60px;
+    height: 30px;
+    padding: 3px;
+    border-radius: 15px;
+    border: 1px solid white;
+    background:  #21213f;
+    cursor: pointer;
+}
+
+.handle {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    transition: 0.35;
+}
+
+.handle::before,
+.handle::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border: none;
+}
+
+.handle::before {
+    background:  #ffffff;
+}
+
+.handle::after {
+    background:  #ffffff;
+    opacity: 0;
+    translate: -7px -7px;
+}
+
+body.dark .switch {
+    background: #ffffff;
+}
+
+body.dark .handle {
+    translate: 30px 0;
+}
+
+body.dark .handle::after {
+    opacity: 5;
+}
+
+body.dark .handle::before {
+    background:  #21213f;
+}

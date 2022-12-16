@@ -1,0 +1,96 @@
+header {
+  position: relative;
+  height: 100vh;
+  overflow-x: hidden;
+  background-image: url('../Assets/Stacked\ Wave.svg');
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+  background-blend-mode: screen;
+}
+.home-content .name {
+  position: absolute;
+  top: 47%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+}
+
+.home-content .name h1 {
+  font-size: 50px;
+  text-align: center;
+  overflow: hidden;
+  font-family: 'Sacramento', cursive;
+  font-weight: 700;
+  color: #25b79f;
+}
+
+.home-content .name p {
+  font-size: 15px;
+  z-index: 500;
+}
+
+.angle-down-icon {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.2rem;
+  overflow: hidden; 
+}
+
+.angle-down-icon a {
+  text-decoration: none;
+  color: black;
+  padding: 1rem;
+  z-index: 500;
+}
+
+@media screen and (min-width:600px) {
+  header {
+    height: 100vh;
+    overflow-x: hidden;
+    background-image: url('../Assets/Stacked\ Wave.svg');
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-blend-mode: screen;
+  }
+
+  .home-content .name {
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #25b79f;
+    width: 100%;
+    text-align: center;
+  }
+
+  .home-content .name h1 {
+    font-size: 60px;
+    text-align: center;
+    overflow: hidden;
+  }
+
+  .home-content .name p {
+    font-size: 20px;
+  }
+
+  .angle-down-icon {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.5rem;
+    overflow: hidden;
+    z-index: 500;
+  }
+
+  .angle-down-icon a {
+    text-decoration: none;
+    color: black;
+    padding: 1rem;
+    z-index: 500;
+  }
+
+}
