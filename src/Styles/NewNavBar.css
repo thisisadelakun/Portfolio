@@ -35,8 +35,8 @@
     
 }
 .mycanvaslinks a{
-    font-size: 1rem;
-    font-weight: 600;
+    font-size: 15px;
+    font-weight: 400;
     color:  #25b79f;
     overflow: hidden;
     text-decoration: none;   
@@ -50,4 +50,5 @@
     text-align: center;
     color: #25b79f;
     text-decoration: none;
+    font-size: 13px;
 }
