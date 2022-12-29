@@ -27,23 +27,31 @@ header {
 
 .home-content .name p {
   font-size: 15px;
+  color: grey;
   z-index: 500;
 }
 
 .angle-down-icon {
   position: absolute;
-  bottom: 10%;
+  bottom: 5%;
+  text-align: center;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   overflow: hidden; 
+  color: #25b79f;
 }
 
 .angle-down-icon a {
   text-decoration: none;
-  color: black;
-  padding: 1rem;
-  z-index: 500;
+  color: #25b79f;
+  padding: 1.1rem;
+  z-index: 10;
+  overflow: hidden;
+}
+.mycv{
+  overflow: hidden;
+  margin-bottom: 20px;
 }
 
 @media screen and (min-width:600px) {
@@ -74,23 +82,25 @@ header {
 
   .home-content .name p {
     font-size: 20px;
+    color: grey;
   }
 
   .angle-down-icon {
     position: absolute;
-    bottom: 10%;
+    bottom: 1%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     overflow: hidden;
     z-index: 500;
   }
 
   .angle-down-icon a {
     text-decoration: none;
-    color: black;
-    padding: 1rem;
-    z-index: 500;
+    color: #25b79f;
+    padding: 1.2rem;
+    z-index: 10;
+    overflow: hidden;
   }
 
 }

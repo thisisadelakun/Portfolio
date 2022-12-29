@@ -6,6 +6,7 @@ import { SiJavascript } from 'react-icons/si'
 import { GrReactjs } from 'react-icons/gr'
 import { RiExternalLinkLine } from 'react-icons/ri'
 import Projec1 from '../Assets/Projec1.jpg'
+import Projec2 from '../Assets/flipcoinSS.jpg'
 import { Link } from 'react-router-dom'
 import { useState } from 'react'
 
@@ -33,16 +34,16 @@ const MyProjects = () => {
                             <p>Build Using HTML,CSS,JS & Reactjs</p>
                             <div className='sourcing'>
                                 <button>
-                                    <a href="#top" target="blank">View source <RiExternalLinkLine /></a>
+                                    <a href="https://github.com/thisisadelakun/TradExpress" target="blank">View source <RiExternalLinkLine /></a>
                                 </button>
                                 <button>
-                                    <a href="#top" target="blank">Go Live <RiExternalLinkLine /></a>
+                                    <a href="https://adelakuntradexpress.netlify.app/" target="blank">Go Live <RiExternalLinkLine /></a>
                                 </button>
                             </div>
                         </div>
                     </div>
                     <div className="proj-1">
-                        <img src={Projec1} alt='' />
+                        <img src={Projec2} alt='' />
 
                         <div className="proj1-details">
                             <div className='sisicon'>
@@ -55,10 +56,10 @@ const MyProjects = () => {
                             <p>Build Using HTML,CSS,JS & Reactjs</p>
                             <div className='sourcing'>
                                 <button>
-                                    <a href="#top" target="blank">View source <RiExternalLinkLine /></a>
+                                    <a href="https://github.com/thisisadelakun/coinFlipJS" target="blank">View source <RiExternalLinkLine /></a>
                                 </button>
                                 <button>
-                                    <a href="#top" target="blank">Go Live <RiExternalLinkLine /></a>
+                                    <a href="https://adelakuncoinflip.netlify.app/" target="blank">Go Live <RiExternalLinkLine /></a>
                                 </button>
                             </div>
                         </div>
@@ -89,7 +90,7 @@ const MyProjects = () => {
                     <div className="more-work">
                         {less && <See />}
                         <p>
-                            <span onClick={() => setLess(!less)} className="less-seen" > {less ? 'Less' : 'More'}</span>
+                            <span onClick={() => setLess(!less)} className="less-seen" > {less ? 'Hide' : 'Check more'}</span>
                         </p>
                     </div>
                     <div className='works-arrow'>

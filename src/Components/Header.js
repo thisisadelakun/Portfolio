@@ -14,6 +14,9 @@ const Header = () => {
                         <p>A Web Developer in training.</p>
                     </div>
                     <div className="angle-down-icon">
+                        <p className='mycv'>
+                           <a href="top"> Download my cv</a>
+                        </p>
                         <Link to='/About'>
                             <BsArrowDownCircle />
                         </Link>

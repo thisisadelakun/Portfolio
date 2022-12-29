@@ -42,11 +42,6 @@ function WithLabelExample() {
 
             </div>
 
-            {/* <ProgressBar now={now} label={`${now}%`} /> <br />
-            <ProgressBar now={now} label={`${now}%`} /> <br />
-            <ProgressBar now={now} label={`${now}%`} /> <br />
-            <ProgressBar now={now} label={`${now}%`} /> */}
-
         </div>
 
 

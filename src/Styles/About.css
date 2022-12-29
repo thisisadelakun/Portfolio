@@ -5,7 +5,7 @@
 
 .about-me .about-heading {
     color: #25b79f;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 700;
     text-align: center;
     overflow: hidden;
@@ -25,18 +25,8 @@
 }
 
 .about-content p {
-    font-size: 18px;
+    font-size: 16px;
     padding: 1rem;
-}
-
-.less-seen {
-    color: #147565;
-    cursor: pointer;
-}
-
-.less-seen:hover {
-    color: blue;
-    cursor: pointer;
 }
 
 .skills .skills-heading {
@@ -52,14 +42,8 @@
 }
 
 .about-content .left-content {
-    flex-basis: 45%;
     text-align: center;
 }
-
-.about-content .right-content {
-    flex-basis: 45%;
-}
-
 
 .skills-heading h1{
     overflow: hidden;
@@ -67,12 +51,11 @@
     font-size: 1.2rem;
 }
 
-
-.skills-bar .bar .info span {
+.infosss {
     font-size: 15px;
     font-weight: 500;
-    color: #07374a;
-    
+    color: #25b79f;
+    margin: 10px;   
 }
 
 
@@ -117,7 +100,6 @@
 
 @media screen and (min-width:600px) {
     .about-me {
-        background-color: #07374a;
         padding: 6rem 0;
         overflow: hidden;
     }
@@ -144,24 +126,26 @@
     }
 
     .about-content p {
-        font-size: 23px;
+        font-size: 18px;
+        width: 80%;
         color: #f0f0e6;
-        padding: 0 2.3rem;
+        padding: 1.5rem 2.3rem;
         text-align: center;
+        color: #25b79f;
+        margin: auto;
     }
 
     .less-seen {
-        color: blue;
+        color: rgba(0, 0, 255, 0.281);
         cursor: pointer;
     }
 
     .less-seen:hover {
-        color: rgb(243, 10, 10);
+        color: rgba(190, 18, 70, 0.623);
         cursor: pointer;
     }
 
     .skills .skills-heading {
-        /* font-size: 2rem; */
         font-size: 30px;
         font-weight: 600;
         color: #25b79f;
@@ -174,12 +158,7 @@
     }
 
     .about-content .left-content {
-        flex-basis: 45%;
         text-align: center;
-    }
-
-    .about-content .right-content {
-        flex-basis: 45%;
     }
 
     .skills-heading {
@@ -196,15 +175,14 @@
         overflow: hidden;
     }
 
-    .skills-bar .bar .info span {
+    .infosss {
         font-size: 1rem;
         font-weight: 500;
         overflow: hidden;
-        margin-bottom: 10px;
+
     }
 
     .skills-bar .bar .progress-line {
-
         height: 20px;
         border-radius: 10px;
         transform: scaleX(0);

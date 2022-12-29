@@ -18,6 +18,7 @@
   font-size: 1.3rem;
   margin-top: 0.5rem;
   overflow: hidden;
+  font-weight: 600;
   
 }
 .un{
@@ -35,8 +36,6 @@
 
 .navbar {
   position: fixed;
-  width: 90%;
-  margin: auto;
 }
 
 .menu-items {
@@ -47,7 +46,8 @@
   display: grid;
   grid-template-columns: repeat(3,1fr);
   grid-gap: 1.1rem;
-  width: 100%;
+  width: 90%;
+  margin: auto;
   align-items: center;
 }
 .mainitems-content{
@@ -62,8 +62,6 @@
   }
   .navbar {
     position: fixed;
-    width: 98%;
-    margin: auto;
   }
 
   .navbar-contents{
