@@ -2,8 +2,10 @@ import React from 'react'
 import ProgressBar from './ProgressBar'
 import '../Styles/About.css'
 import { useState } from 'react'
-import Gallery from './Gallery'
+import NewGallery from './NewGallery'
 import { Link } from 'react-router-dom'
+import "swiper/css/bundle";
+import '../Styles/NewGallery.css'
 
 
 const About = () => {
@@ -39,7 +41,7 @@ const About = () => {
             </div>
             <div className='gallery'>
                 <h2>GALLERY</h2>
-                <Gallery />
+                <NewGallery />
 
             </div>
             <div className='works-arrow'>
