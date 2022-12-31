@@ -7,6 +7,7 @@ import { GrReactjs } from 'react-icons/gr'
 import { RiExternalLinkLine } from 'react-icons/ri'
 import Projec1 from '../Assets/Projec1.jpg'
 import Projec2 from '../Assets/flipcoinSS.jpg'
+import Projec3 from '../Assets/BoostrapSS.jpg'
 import { Link } from 'react-router-dom'
 import { useState } from 'react'
 
@@ -50,10 +51,9 @@ const MyProjects = () => {
                                 <SiHtml5 />
                                 <SiCss3 />
                                 <SiJavascript />
-                                <GrReactjs />
                             </div>
-                            <h2>Crypto Trading Website</h2>
-                            <p>Build Using HTML,CSS,JS & Reactjs</p>
+                            <h2>Coin Flip</h2>
+                            <p>Build Using HTML,CSS & JS</p>
                             <div className='sourcing'>
                                 <button>
                                     <a href="https://github.com/thisisadelakun/coinFlipJS" target="blank">View source <RiExternalLinkLine /></a>
@@ -65,23 +65,21 @@ const MyProjects = () => {
                         </div>
                     </div>
                     <div className="proj-1">
-                        <img src={Projec1} alt='' />
+                        <img src={Projec3} alt='' />
 
                         <div className="proj1-details">
                             <div className='sisicon'>
                                 <SiHtml5 />
                                 <SiCss3 />
-                                <SiJavascript />
-                                <GrReactjs />
                             </div>
-                            <h2>Crypto Trading Website</h2>
-                            <p>Build Using HTML,CSS,JS & Reactjs</p>
+                            <h2>Game Website Landing Page</h2>
+                            <p>Build Using HTML,CSS & Bootstrap</p>
                             <div className='sourcing'>
                                 <button>
-                                    <a href="#top" target="blank">View source <RiExternalLinkLine /></a>
+                                    <a href="https://github.com/thisisadelakun/bootstrap-basic" target="blank">View source <RiExternalLinkLine /></a>
                                 </button>
                                 <button>
-                                    <a href="#top" target="blank">Go Live <RiExternalLinkLine /></a>
+                                    <a href="https://adelakunboostrap.netlify.app" target="blank">Go Live <RiExternalLinkLine /></a>
                                 </button>
                             </div>
                         </div>
