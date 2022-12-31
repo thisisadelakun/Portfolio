@@ -8,6 +8,7 @@ import { RiExternalLinkLine } from 'react-icons/ri'
 import Projec1 from '../Assets/Projec1.jpg'
 import Projec2 from '../Assets/flipcoinSS.jpg'
 import Projec3 from '../Assets/BoostrapSS.jpg'
+import Projec4 from '../Assets/Guesstheword1.jpg'
 import { Link } from 'react-router-dom'
 import { useState } from 'react'
 
@@ -44,7 +45,7 @@ const MyProjects = () => {
                         </div>
                     </div>
                     <div className="proj-1">
-                        <img src={Projec2} alt='' />
+                        <img src={Projec4} alt='' />
 
                         <div className="proj1-details">
                             <div className='sisicon'>
@@ -52,18 +53,19 @@ const MyProjects = () => {
                                 <SiCss3 />
                                 <SiJavascript />
                             </div>
-                            <h2>Coin Flip</h2>
+                            <h2>Duess the Word game</h2>
                             <p>Build Using HTML,CSS & JS</p>
                             <div className='sourcing'>
                                 <button>
-                                    <a href="https://github.com/thisisadelakun/coinFlipJS" target="blank">View source <RiExternalLinkLine /></a>
+                                    <a href="https://github.com/thisisadelakun/Guess-The-Word-Game" target="blank">View source <RiExternalLinkLine /></a>
                                 </button>
                                 <button>
-                                    <a href="https://adelakuncoinflip.netlify.app/" target="blank">Go Live <RiExternalLinkLine /></a>
+                                    <a href="https://adelakunguessthegame.netlify.app" target="blank">Go Live <RiExternalLinkLine /></a>
                                 </button>
                             </div>
                         </div>
                     </div>
+
                     <div className="proj-1">
                         <img src={Projec3} alt='' />
 
@@ -72,7 +74,7 @@ const MyProjects = () => {
                                 <SiHtml5 />
                                 <SiCss3 />
                             </div>
-                            <h2>Game Website Landing Page</h2>
+                            <h2>Game Centre Landing Page</h2>
                             <p>Build Using HTML,CSS & Bootstrap</p>
                             <div className='sourcing'>
                                 <button>
@@ -107,25 +109,27 @@ const MyProjects = () => {
     )
     function See() {
         return (
-            <div className="proj-1">
-                <img src={Projec1} alt='' />
 
-                <div className="proj1-details">
-                    <div className='sisicon'>
-                        <SiHtml5 />
-                        <SiCss3 />
-                        <SiJavascript />
-                        <GrReactjs />
-                    </div>
-                    <h2>Crypto Trading Website</h2>
-                    <p>Build Using HTML,CSS,JS & Reactjs</p>
-                    <div className='sourcing'>
-                        <button>
-                            <a href="#top" target="blank">View source <RiExternalLinkLine /></a>
-                        </button>
-                        <button>
-                            <a href="#top" target="blank">Go Live <RiExternalLinkLine /></a>
-                        </button>
+            <div>
+                <div className="proj-1">
+                    <img src={Projec2} alt='' />
+
+                    <div className="proj1-details">
+                        <div className='sisicon'>
+                            <SiHtml5 />
+                            <SiCss3 />
+                            <SiJavascript />
+                        </div>
+                        <h2>Coin Flip Game</h2>
+                        <p>Build Using HTML,CSS & JS</p>
+                        <div className='sourcing'>
+                            <button>
+                                <a href="https://github.com/thisisadelakun/coinFlipJS" target="blank">View source <RiExternalLinkLine /></a>
+                            </button>
+                            <button>
+                                <a href="https://adelakuncoinflip.netlify.app/" target="blank">Go Live <RiExternalLinkLine /></a>
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>

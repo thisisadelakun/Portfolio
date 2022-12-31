@@ -8,7 +8,7 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.2.3",
-    "jquery": "^3.6.1",
+    "jquery": "^3.6.3",
     "mdb-ui-kit": "^6.0.1",
     "react": "^18.2.0",
     "react-awesome-button": "^7.0.4",

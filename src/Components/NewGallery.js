@@ -15,6 +15,8 @@ import "../Styles/NewGallery.css";
 import { EffectCoverflow, Pagination, Navigation } from "swiper";
 import Projec1 from '../Assets/Projec1.jpg'
 import Projec2 from '../Assets/flipcoinSS.jpg'
+import Projec3 from '../Assets/BoostrapSS.jpg'
+import Projec4 from '../Assets/Guesstheword1.jpg'
 
 export default function NewGallery() {
     return (
@@ -38,42 +40,22 @@ export default function NewGallery() {
                 navigation={true}
                 modules={[EffectCoverflow, Pagination, Navigation]}
                 className="mySwiper"
-
             >
 
                 <SwiperSlide>
-                    <img src={Projec2} alt="slider1" />
+                    <img src={Projec1} alt="slider1" />
                 </SwiperSlide>
 
                 <SwiperSlide>
-                    <img src={Projec1} alt="slider2" />
+                    <img src={Projec2} alt="slider2" />
                 </SwiperSlide>
 
                 <SwiperSlide>
-                    <img src={Projec1} alt="slider1" />
+                    <img src={Projec3} alt="slider1" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src={Projec2} alt="slider2" />
+                    <img src={Projec4} alt="slider2" />
                 </SwiperSlide>
-                <SwiperSlide>
-                    <img src={Projec1} alt="slider1" />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img src={Projec1} alt="slider1" />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img src={Projec2} alt="slider2" />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img src={Projec2} alt="slider2" />
-                </SwiperSlide>
-                {/* <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 5</SwiperSlide>
-        <SwiperSlide>Slide 6</SwiperSlide>
-        <SwiperSlide>Slide 7</SwiperSlide>
-        <SwiperSlide>Slide 8</SwiperSlide>
-        <SwiperSlide>Slide 9</SwiperSlide> */}
             </Swiper>
         </>
     );
