@@ -9,6 +9,7 @@ import Projec1 from '../Assets/Projec1.jpg'
 import Projec2 from '../Assets/flipcoinSS.jpg'
 import Projec3 from '../Assets/BoostrapSS.jpg'
 import Projec4 from '../Assets/Guesstheword1.jpg'
+import Projec5 from '../Assets/Loopstudio Screenshots.jpg'
 import { Link } from 'react-router-dom'
 import { useState } from 'react'
 
@@ -45,6 +46,27 @@ const MyProjects = () => {
                         </div>
                     </div>
                     <div className="proj-1">
+                        <img src={Projec5} alt='' />
+
+                        <div className="proj1-details">
+                            <div className='sisicon'>
+                                <SiHtml5 />
+                                <SiCss3 />
+                                <SiJavascript />
+                            </div>
+                            <h2>Loopstudio Landing Page</h2>
+                            <p>Build Using HTML,CSS & JS</p>
+                            <div className='sourcing'>
+                                <button>
+                                    <a href="https://github.com/thisisadelakun/LoopStudio" target="blank">View source <RiExternalLinkLine /></a>
+                                </button>
+                                <button>
+                                    <a href="https://adelakunloopstudio.netlify.app/" target="blank">Go Live <RiExternalLinkLine /></a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="proj-1">
                         <img src={Projec4} alt='' />
 
                         <div className="proj1-details">
@@ -53,7 +75,7 @@ const MyProjects = () => {
                                 <SiCss3 />
                                 <SiJavascript />
                             </div>
-                            <h2>Duess the Word game</h2>
+                            <h2>Guess the Word game</h2>
                             <p>Build Using HTML,CSS & JS</p>
                             <div className='sourcing'>
                                 <button>
