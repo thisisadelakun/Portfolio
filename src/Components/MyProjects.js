@@ -23,8 +23,8 @@ const MyProjects = () => {
                     <h1>Portfolio</h1>
                 </div>
                 <div className="portfolio-content container">
-                    <div className="proj-1">
-                        <img src={Projec1} alt='' />
+                    <div className="proj-1 ">
+                        <img className='animate__animated animate__fadeInLeft' src={Projec1} alt='' />
 
                         <div className="proj1-details">
                             <div className='sisicon'>
@@ -121,7 +121,7 @@ const MyProjects = () => {
                             Want to get in touch or talk about a project?
                             Feel free to contact me via email at
                             <a className='contpage' href="mailto:thisisadelakun@gmail.com"> thisisadelakun@gmail.com  </a>
-                            or drop a line in the form at the <Link className='contpage' to='/Contact'>contact page</Link>
+                            or drop a line in the form at the <a className='contpage' href='#contact-me'>contact</a>
                         </p>
 
                     </div>

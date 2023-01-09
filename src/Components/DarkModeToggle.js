@@ -11,8 +11,6 @@ const DarkModeToggle = () => {
 
   return (
     <div>
-
-      {/* <Main /> */}
       <label>
         <input className='inputting' type="checkbox" onClick={handleToggled} />
         <span className="switch"> <span className="handle" /> </span>

@@ -76,9 +76,10 @@
   }
   .menu-items {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     position: relative;
     margin-top: 0.5rem;
+    align-items: center;
   }
   .mainitems-content{
     z-index: 3;
@@ -94,16 +95,19 @@
     list-style: none;
     color: #25b79f;
     overflow: hidden;
+    align-items: center;
   }
   .menu-items a {
     text-decoration: none;
     color: #25b79f;
     font-size: 1.2rem;
     padding: 0.3rem;
+    align-items: center;
   }
 
-  .menu-items a:hover {
+  .menu-items li:hover {
     border-bottom: 1px solid #f0f0e6;
+    color: #25b79f;
   }
 
 }

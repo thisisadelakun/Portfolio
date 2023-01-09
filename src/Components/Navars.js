@@ -15,7 +15,7 @@ const Navars = () => {
                     </div>
                     <div className='mainmenuitems'>
                         <div className="navars-branding">
-                            <Link className="navars-branding" to='/'>
+                            <Link onClick="refresh" className="navars-branding" to='/'>
                                 <p className="navars-branding">Adelak<span className='un'>un</span></p>
                             </Link>
                         </div>
@@ -24,17 +24,17 @@ const Navars = () => {
                     <div className="mainitems-content">
                         <div className='menu-items'>
                             <ul class="menu-items">
-                                <Link to='/About'>
-                                    <li><a href="#about">About</a></li>
-                                </Link>
+                                <li>
+                                    <a href="#about">About</a>
+                                </li>
 
-                                <Link to='/MyProjects'>
-                                    <li><a href="#my-works">Portfolio</a></li>
-                                </Link>
+                                <li>
+                                    <a href="#my-works">Portfolio</a>
+                                </li>
 
-                                <Link to='/Contact'>
-                                    <li><a href="#contact-me">Contact</a></li>
-                                </Link>
+                                <li>
+                                    <a href="#contact-me">Contact</a>
+                                </li>
                             </ul>
                         </div>
 

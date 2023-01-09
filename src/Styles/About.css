@@ -1,11 +1,11 @@
 .about-me {
-    padding: 6rem 0;
+    padding: 2rem 0;
     overflow: hidden;
 }
 
 .about-me .about-heading {
     color: #25b79f;
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: 700;
     text-align: center;
     overflow: hidden;
@@ -17,10 +17,10 @@
 }
 
 .about-content img {
-    height: 200px;
+    height: 2000px;
     width: 150px;
     object-fit: cover;
-    border-radius: 50%;
+    border-radius: 100%;
 
 }
 
@@ -90,7 +90,7 @@
     text-align: center;
     font-size: 1.3rem;
     font-weight: 500;
-    margin-top: 3rem;
+    margin: 3rem 0;
     overflow: hidden;
 }
 .gallery img{
