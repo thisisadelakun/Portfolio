@@ -10,7 +10,6 @@ import Projec2 from '../Assets/flipcoinSS.jpg'
 import Projec3 from '../Assets/BoostrapSS.jpg'
 import Projec4 from '../Assets/Guesstheword1.jpg'
 import Projec5 from '../Assets/Loopstudio Screenshots.jpg'
-import { Link } from 'react-router-dom'
 import { useState } from 'react'
 
 
