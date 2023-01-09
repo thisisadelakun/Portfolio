@@ -16,13 +16,31 @@
     flex-direction: column;
 }
 
-.about-content img {
-    height: 2000px;
+.photoids {
+    background-image: url('../Assets//blob-haikei.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: screen;
+    animation: swing;
+    animation: bounceInLeft;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    margin-top: 1rem;
+}
+
+.photosid img {
+    height: 200px;
     width: 150px;
     object-fit: cover;
-    border-radius: 100%;
-
+    border-radius: 70%;
+    --_p: 100%;
+    filter: grayscale(100%);
+    z-index: 500;
+    animation: swing;
+    animation-duration: 10s;
+    animation-delay: 5s
 }
+
 
 .about-content p {
     font-size: 16px;
@@ -45,7 +63,7 @@
     text-align: center;
 }
 
-.skills-heading h1{
+.skills-heading h1 {
     overflow: hidden;
     margin-top: 3rem;
     font-size: 1.2rem;
@@ -55,7 +73,7 @@
     font-size: 15px;
     font-weight: 500;
     color: #25b79f;
-    margin: 10px;   
+    margin: 10px;
 }
 
 
@@ -78,14 +96,16 @@
     color: #25b79f;
     display: none;
 }
-.gallery{
+
+.gallery {
     display: flex;
     align-items: center;
     flex-direction: column;
     width: 80%;
     margin: auto;
 }
-.gallery h2{
+
+.gallery h2 {
     color: #25b79f;
     text-align: center;
     font-size: 1.3rem;
@@ -93,7 +113,8 @@
     margin: 3rem 0;
     overflow: hidden;
 }
-.gallery img{
+
+.gallery img {
     width: 100%;
     margin: auto;
 }

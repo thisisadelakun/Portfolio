@@ -1,4 +1,4 @@
-import React, { useState} from 'react'
+import React, { useState } from 'react'
 import ProgressBar from './ProgressBar'
 import '../Styles/About.css'
 import NewGallery from './NewGallery'
@@ -17,7 +17,11 @@ const About = () => {
                         <div>
                             <h1 className="about-heading">About Me</h1>
                         </div>
-                        <img src={myphotoid} alt="myphotoid" />
+                        <div className="photoids">
+                            <div className="photosid ">
+                                <img src={myphotoid} alt="myphotoid" />
+                            </div>
+                        </div>
                         <p>
                             I am Full Stack Web developer. I am also a  graduate of Science Laboratory Technology (B.Tech).
                             I am a person who is positive about every aspect of life. {less && <See />} <span onClick={() => setLess(!less)} className='less-seen'> {less ? 'hide' : 'more...'}</span>
