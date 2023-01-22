@@ -1,27 +1,53 @@
-import React from 'react'
-import '../Styles/Header.css'
-import { BsArrowDownCircle } from 'react-icons/bs'
+import React from 'react';
+import '../Styles/Header.css';
+import Scrolls from '../Containers/Scrolls';
+import myphotoid from '../Assets/My new photo ID.png';
+import blob2 from '../Assets/circle-scatter-haikei.svg'
 
 
 const Header = () => {
     return (
-        <div>
-            <header className="header">
+        <div className='header'>
+            <div>
+                <span className='blob1'><img src={blob2} alt='bgblob' /></span>
+                <span className='blob2'><img src={blob2} alt='bgblob' /></span>
+            </div>
+            <div className="header-col container">
+
                 <div className="home-content" id="home-page">
-                    <div className="name " >
-                        <h1 className='animate__animated animate__backInDown animate__delay-2s	1s animate__slow	1s animate-duration: 2s;'>Hi, I'm Adelakun</h1>
-                        <p className='animate__animated animate__backInUp animate__delay-2s	2s animate__slow	2s animate-duration: 2s;'>A Web Developer in training.</p>
-                    </div>
-                    <div className="angle-down-icon">
-                        <p className='mycv'>
-                           <a href="top"> Download my cv</a>
-                        </p>
-                        <a href='#about'>
-                            <BsArrowDownCircle />
-                        </a>
+                    <h1 className='animate__animated animate__backInDown animate__delay-2s	1s animate__slow	1s
+                        animate-duration: 2s;'>
+                        Hi, I'm Adelakun
+                    </h1>
+                    <p className='animate__animated animate__backInUp animate__delay-2s	2s animate__slow	2s 
+                        animate-duration: 2s;'>
+                        Web Developer
+                    </p>
+                    <h5 className='animate__animated animate__backInLeft animate__delay-2s	1s animate__slower	4s
+                        animate-duration: 2s;'>
+                        Through constant practice & learning, I make things pretty and easy to use.
+                    </h5>
+
+                    <div className='scroll1'>
+                        <Scrolls />
                     </div>
                 </div>
-            </header>
+
+                <div className='image-col'>
+                    <div className="photoids">
+                        <div className="photosid ">
+                            <img src={myphotoid} alt="myphotoid" />
+                        </div>
+                    </div>
+                </div>
+
+                <div className='scroll2'>
+                    <Scrolls />
+                </div>
+
+
+
+            </div>
         </div>
     )
 }

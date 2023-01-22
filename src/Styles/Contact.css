@@ -27,6 +27,7 @@
     font-weight: 700;
     color:  #25b79f;
     padding-bottom: 0.5rem;
+    font-family: 'Montserrat', sans-serif;
     overflow: hidden;
     padding-top: 6rem;
     margin: 2rem;
@@ -129,7 +130,6 @@
 @media screen and (min-width:600px) {
     .contacts {
         background-color: #07374a;
-        /* position: relative; */
         height: 100%;
         overflow-y: hidden;
     }

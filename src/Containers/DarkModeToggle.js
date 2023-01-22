@@ -4,16 +4,17 @@ import '../Styles/DarkModeToggle.css'
 
 const DarkModeToggle = () => {
   useEffect(() => {
-    if (localStorage.getItem("dark")) {
+    if (localStorage.getItem("light")) {
       document.body.classList.add("dark");
     }
   }, []);
 
   return (
     <div>
-      <label>
+      <label class="switch">
         <input className='inputting' type="checkbox" onClick={handleToggled} />
-        <span className="switch"> <span className="handle" /> </span>
+        {/* <span className="switch"> <span className="handle" /> </span> */}
+            <span class="slider"></span>
       </label>
     </div>
   )

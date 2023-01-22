@@ -1,14 +1,32 @@
 .portfolio {
   padding: 6rem 0;
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+}
 
+.portfolio-col {
+
+  /* margin: auto; */
+  
+  margin: 16px 16px 16px 16px;
+  border: 0px solid;
+  background: inherit;
+  padding: 1rem 0.5rem;
+  border: none;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .proj-heading h1 {
   text-align: center;
   font-size: 1.5rem;
   font-weight: 700;
-  margin-bottom: 2rem;
-  overflow: hidden;
+  padding: 1rem 0;
+  /* overflow: hidden; */
+  font-family: 'Montserrat', sans-serif;
+  color: #25b79f;
 }
 
 .proj-1 {
@@ -16,6 +34,8 @@
   flex-direction: column;
   align-items: center;
   margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 2px solid rgba(128, 128, 128, 0.377);
 }
 
 .proj-1 img {
@@ -122,9 +142,11 @@
 }
 
 .works-arrow {
-  width: 95%;
+  width: 90%;
   text-align: center;
   margin: auto;
+  padding: 2rem 0;
+
 }
 
 .contpage {
@@ -133,7 +155,7 @@
   background-color: rgba(55, 115, 133, 0.247);
 }
 
-.less-seen{
+.less-seen {
   color: #25b79f;
   font-size: 16px;
 }
@@ -147,6 +169,13 @@
   .portfolio {
     padding: 6rem 0;
   }
+  .portfolio-col {
+    margin: 16px;
+    border: 0px solid;
+    background: inherit;
+    padding: 2rem;
+  }
+
   .proj-heading h1 {
     text-align: center;
     color: #25b79f;
@@ -163,6 +192,8 @@
     gap: 5rem;
     margin-bottom: 4rem;
     align-items: center;
+    padding-bottom: 4rem;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.377);
   }
 
   .proj-1 img {
@@ -204,7 +235,8 @@
     text-align: center;
     transition: 0.3s ease-in-out;
   }
-  .sourcing{
+
+  .sourcing {
     display: flex;
     flex-direction: row;
   }
@@ -223,14 +255,15 @@
   .proj-1 .proj1-details button:hover .fas {
     color: #f0f0e6;
   }
-  .less-seen{
+
+  .less-seen {
     color: #25b79f;
     font-size: 18px;
   }
 
   .more-work {
     text-align: center;
-    
+
   }
 
   .more-work p {
@@ -248,6 +281,7 @@
   .more-work a:hover {
     border-bottom: 2px solid #f0f0e6;
   }
+
   .works-arrow {
     width: 80%;
     text-align: center;

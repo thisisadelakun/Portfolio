@@ -1,105 +1,201 @@
-header {
-  position: relative;
-  height: 100vh;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   overflow-x: hidden;
-  /* background-image: url('../Assets/Cloudy.svg'); */
-  background-position: center;
-  background-position-y: top;
-  background-blend-mode: screen;
-}
-.home-content .name {
-  position: absolute;
-  top: 47%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 100%;
-  text-align: center;
 }
 
-.home-content .name h1 {
+.header {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  overflow: hidden;
+  background-image: url('../Assets/wave-haikei.svg');
+  background-position: center;
+  background-position-y: top;
+  /* background-blend-mode: saturation; */
+  background-repeat: no-repeat;
+}
+
+.header-col {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  overflow: hidden;
+  width: 90%;
+  height: 100%;
+  margin-top: 8rem;
+  padding-bottom: 15rem;
+}
+
+.home-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+  margin-top: 3rem;
+  z-index: 300;
+}
+
+
+.home-content h1 {
   font-size: 40px;
   text-align: center;
   overflow: hidden;
-  font-family: 'Sacramento', cursive;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 600;
   color: #25b79f;
+  overflow: hidden;
 }
 
-.home-content .name p {
+.home-content p {
   font-size: 15px;
   color: grey;
   z-index: 500;
+  overflow: hidden;
 }
 
-.angle-down-icon {
+.home-content h5 {
+  font-size: 16px;
+  font-weight: 400;
+  overflow: hidden;
+  font-family: 'Montserrat', sans-serif;
+  color: aliceblue;
+}
+
+.image-col {
+  display: flex;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+
+.photoids {
+  background-image: url('../Assets//blob-haikei.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: screen;
+  position: relative;
+  height: 300px;
+  animation: flash;
+  animation-duration: 10s;
+  animation-delay: 1s;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  z-index: 300;
+}
+
+.photosid img {
+  height: 200px;
+  width: 150px;
+  object-fit: cover;
+  border-radius: 70%;
+  --_p: 100%;
+  filter: grayscale(100%);
   position: absolute;
-  bottom: 5%;
-  text-align: center;
   left: 50%;
+  top: 50%;
   transform: translate(-50%, -50%);
-  font-size: 1.1rem;
-  overflow: hidden; 
-  color: #25b79f;
+  overflow: hidden;
+  z-index: 300;
 }
 
-.angle-down-icon a {
-  text-decoration: none;
-  color: #25b79f;
-  padding: 1.1rem;
-  z-index: 10;
-  overflow: hidden;
-}
-.mycv{
-  overflow: hidden;
-  margin-bottom: 20px;
+.scroll2 {
+  display: flex;
 }
 
-@media screen and (min-width:600px) {
-  header {
-    height: 100vh;
-    overflow-x: hidden;
-    /* background-image: url('../Assets/Stacked\ Wave.svg'); */
+.scroll1 {
+  display: none;
+}
+
+.blob1 {
+  width: 100%;
+  display: flex;
+  opacity: 0.3;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+  animation: fadeIn;
+  animation-duration: 10s;
+  animation-delay: 1s;
+}
+
+.blob2 {
+  width: 100%;
+  display: flex;
+  opacity: 0.5;
+  position: absolute;
+  left: 0%;
+  top: 20%;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+    animation: fadeOut;
+  animation-duration: 10s;
+  transition: 1s;
+}
+
+@media screen and (min-width:768px) {
+  .header {
+    background-image: url('../Assets/wave-haikei2.svg');
+    background-position: center;
+    background-position-y: top;
+    /* background-blend-mode: saturation; */
     background-repeat: no-repeat;
-    background-position-y: bottom;
-    background-blend-mode: screen;
   }
 
-  .home-content .name {
-    position: absolute;
-    top: 47%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #25b79f;
+  .header-col {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    width: 70%;
+    margin-top: 8rem;
+    margin-bottom: 5rem;
+  }
+
+  .scroll1 {
+    display: flex;
+    /* text-align: left; */
+    margin-top: 5rem;
+  }
+
+  .scroll2 {
+    display: none;
+  }
+
+  .home-content {
+    position: relative;
     width: 100%;
-    text-align: center;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+    text-align: left;
+    margin-top: 6rem;
   }
 
-  .home-content .name h1 {
+  .home-content h1 {
     font-size: 60px;
-    text-align: center;
+    text-align: left;
     overflow: hidden;
   }
 
-  .home-content .name p {
+  .home-content p {
     font-size: 20px;
     color: grey;
-  }
-
-  .angle-down-icon {
-    position: absolute;
-    bottom: 1%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 1.2rem;
-    overflow: hidden;
-    z-index: 500;
-  }
-
-  .angle-down-icon a {
-    text-decoration: none;
-    color: #25b79f;
-    padding: 1.2rem;
-    z-index: 10;
     overflow: hidden;
   }
 

@@ -32,6 +32,7 @@ const Contact = () => {
                                 <input type="submit" value="Submit" className='submitbutton' />
                             </form>
                         </div>
+
                         <div className='sub-contact-content2'>
                             <div className='mail'>
 

@@ -3,78 +3,71 @@
 }
 
 :root {
-    --color-dark: #21213f;
+    --color-dark: #07374a;
 }
 
-body{
-    transition: 0.3s;  
- 
+body {
+    transition: 1s;
 }
 
 body.dark {
-    /* background:    #21213f; */
-    background:   #07374a;
-    color:  white;
-}
-
-.inputting {
-    display: none;
+    /* background-color: #000102e8; */
+    background: #07374a;
+    color: white;
 }
 
 .switch {
-    overflow: hidden;
-    display: flex;
-    width: 60px;
-    height: 30px;
-    padding: 3px;
-    border-radius: 15px;
-    border: 1px solid white;
-    background:  #21213f;
-    cursor: pointer;
-}
-
-.handle {
+    --width-of-switch: 3.5em;
+    --height-of-switch: 2em;
+    --size-of-icon: 1.4em;
+    --slider-offset: 0.3em;
     position: relative;
-    width: 24px;
-    height: 24px;
-    transition: 0.35;
+    width: var(--width-of-switch);
+    height: var(--height-of-switch);
 }
 
-.handle::before,
-.handle::after {
-    content: "";
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
     position: absolute;
+    cursor: pointer;
     top: 0;
     left: 0;
-    display: block;
-    width: 24px;
-    height: 24px;
-    border-radius: 50%;
-    border: none;
+    right: 0;
+    bottom: 0;
+    background-color: #ffffff;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 30px;
 }
 
-.handle::before {
-    background:  #ffffff;
+.slider:before {
+    position: absolute;
+    content: "";
+    height: var(--size-of-icon, 1.4em);
+    width: var(--size-of-icon, 1.4em);
+    border-radius: 20px;
+    left: var(--slider-offset, 0.3em);
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    background: #07374a;
+    -webkit-transition: .4s;
+    transition: .4s;
 }
 
-.handle::after {
-    background:  #ffffff;
-    opacity: 0;
-    translate: -7px -7px;
+input:checked+.slider {
+    background-color: #25b79f;
 }
 
-body.dark .switch {
-    background: #ffffff;
-}
-
-body.dark .handle {
-    translate: 30px 0;
-}
-
-body.dark .handle::after {
-    opacity: 5;
-}
-
-body.dark .handle::before {
-    background:  #21213f;
+input:checked+.slider:before {
+    left: calc(100% - (var(--size-of-icon, 1.4em) + var(--slider-offset, 0.3em)));
+    background: #25b79f;
+    -webkit-box-shadow: inset -3px -2px 5px -2px #07374a, inset -10px -4px 0 0 #07374a;
+    box-shadow: inset -3px -2px 5px -2px #07374a, inset -10px -4px 0 0 #07374a;
 }

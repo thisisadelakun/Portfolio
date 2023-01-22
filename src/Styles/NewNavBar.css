@@ -41,6 +41,10 @@
     overflow: hidden;
     text-decoration: none;   
 }
+.mycanvaslinks a:hover{
+    color: white;
+}
+
 .mynavsection{
     border-bottom: 1px solid #63797570;
     padding: 1rem 0rem;

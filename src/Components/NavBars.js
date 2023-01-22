@@ -1,11 +1,12 @@
 import React from 'react'
-import '../Styles/Navars.css'
+import '../Styles/NavBars.css'
 import { Link } from 'react-router-dom'
-import DarkModeToggle from './DarkModeToggle'
-import NewNavBar from './NewNavBar'
+import DarkModeToggle from '../Containers/DarkModeToggle'
+import NewNavBar from '../Containers/NewNavBar'
+import MyLogo from '../Assets/MyLogo.png'
 
 
-const Navars = () => {
+const NavBars = () => {
     return (
         <div className='mynavbars' id='mynavbars'>
             <nav className="navbar">
@@ -16,7 +17,7 @@ const Navars = () => {
                     <div className='mainmenuitems'>
                         <div className="navars-branding">
                             <Link onClick="refresh" className="navars-branding" to='/'>
-                                <p className="navars-branding">Adelak<span className='un'>un</span></p>
+                                <img src={MyLogo} alt='mylogo' width={140} />
                             </Link>
                         </div>
                     </div>
@@ -37,11 +38,10 @@ const Navars = () => {
                                 </li>
                             </ul>
                         </div>
+                    </div>
 
-                        <div className='darktoggle'>
-                            <DarkModeToggle />
-                        </div>
-
+                    <div className='darktoggle'>
+                        <DarkModeToggle />
                     </div>
 
 
@@ -53,4 +53,4 @@ const Navars = () => {
     )
 }
 
-export default Navars
+export default NavBars

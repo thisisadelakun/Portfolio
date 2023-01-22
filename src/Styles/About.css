@@ -9,49 +9,34 @@
     font-weight: 700;
     text-align: center;
     overflow: hidden;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .about-content {
     display: flex;
     flex-direction: column;
-}
-
-.photoids {
-    background-image: url('../Assets//blob-haikei.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-blend-mode: screen;
-    animation: swing;
-    animation: bounceInLeft;
-    animation-duration: 3s;
-    animation-delay: 2s;
-    margin-top: 1rem;
-}
-
-.photosid img {
-    height: 200px;
-    width: 150px;
-    object-fit: cover;
-    border-radius: 70%;
-    --_p: 100%;
-    filter: grayscale(100%);
-    z-index: 500;
-    animation: swing;
-    animation-duration: 10s;
-    animation-delay: 5s
+    width: 100%;
 }
 
 
 .about-content p {
     font-size: 16px;
     padding: 1rem;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
 }
 
 .skills .skills-heading {
-    font-size: 15px;
-    font-weight: 600;
-    color: #25b79f;
-    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+
+.skills-heading {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3.5rem;
+    align-items: center;
+    gap: 0.5rem;
 }
 
 .about-me .about-content {
@@ -62,55 +47,54 @@
 .about-content .left-content {
     text-align: center;
 }
+.skills-icon{
+    font-size: 1.3rem;
+    margin-bottom: 0.3rem;
 
-.skills-heading h1 {
+}
+
+.skills-heading span {
+    font-weight: 600;
+    color: #25b79f;
     overflow: hidden;
-    margin-top: 3rem;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+    text-align: left;
+    font-family: 'Roboto Slab', serif;
 }
 
 .infosss {
     font-size: 15px;
     font-weight: 500;
     color: #25b79f;
-    margin: 10px;
+    margin: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+
 }
 
-
-.skills-bar .bar .progress-line {
-    height: 15px;
-    transform: scaleX(0);
-    transform-origin: left;
-    animation: animate 1s cubic-bezier(1, 0, 0.5, 1) forwards;
-}
-
-@keyframes animate {
-    100% {
-        transform: scaleX(1);
-    }
-}
-
-.work-arrow-2 a {
-    font-size: 1rem;
-    text-decoration: none;
-    color: #25b79f;
-    display: none;
-}
 
 .gallery {
     display: flex;
-    align-items: center;
     flex-direction: column;
+    justify-content: center;
     width: 80%;
     margin: auto;
+    padding-bottom: 4rem;
+}
+.subgallery{
+    display: flex;
+    flex-direction: row;
+    margin: 2rem 0;
+    gap: 0.7rem;
+    align-items: center;
 }
 
-.gallery h2 {
+.gallery span {
     color: #25b79f;
-    text-align: center;
-    font-size: 1.3rem;
-    font-weight: 500;
-    margin: 3rem 0;
+    text-align: left;
+    font-size: 1.1rem;
+    font-weight: 600;
+    font-family: 'Roboto Slab', serif; 
     overflow: hidden;
 }
 
@@ -138,21 +122,11 @@
         flex-direction: column;
     }
 
-    .about-content img {
-        height: 200px;
-        width: 150px;
-        object-fit: cover;
-        border-radius: 50%;
-
-    }
-
     .about-content p {
         font-size: 18px;
         width: 80%;
-        color: #f0f0e6;
         padding: 1.5rem 2.3rem;
         text-align: center;
-        color: #25b79f;
         margin: auto;
     }
 
@@ -169,7 +143,7 @@
     .skills .skills-heading {
         font-size: 30px;
         font-weight: 600;
-        color: #25b79f;
+        /* color: #25b79f; */
         text-align: center;
     }
 
@@ -186,15 +160,10 @@
         overflow: hidden;
     }
 
-    .skills-bar {
-        padding: 25px 30px;
-        overflow: hidden;
+    .skills-heading h1 {
+        text-align: left;
     }
 
-    .skills-bar .bar {
-        margin: 25px 0;
-        overflow: hidden;
-    }
 
     .infosss {
         font-size: 1rem;
@@ -203,19 +172,6 @@
 
     }
 
-    .skills-bar .bar .progress-line {
-        height: 20px;
-        border-radius: 10px;
-        transform: scaleX(0);
-        transform-origin: left;
-        animation: animate 1s cubic-bezier(1, 0, 0.5, 1) forwards;
-    }
-
-    @keyframes animate {
-        100% {
-            transform: scaleX(1);
-        }
-    }
 
     .work-arrow {
         margin: 3rem 0;

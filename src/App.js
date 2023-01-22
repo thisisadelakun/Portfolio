@@ -3,7 +3,7 @@ import About from './Components/About';
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import MyProjects from './Components/MyProjects';
 import Contact from './Components/Contact';
-import Navars from './Components/Navars';
+import NavBars from './Components/NavBars';
 import Home from './Components/Home';
 
 
@@ -14,7 +14,7 @@ function App() {
     <div className="App">
            
       <BrowserRouter>
-      <Navars/>
+      <NavBars/>
         <Routes> 
           <Route index element={<Home/>} />
           <Route path='About' element={<About />} />
