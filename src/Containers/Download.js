@@ -1,13 +1,13 @@
 import React from 'react'
 import { FiDownloadCloud } from 'react-icons/fi'
+import resume  from '../data/Abayomi_Adelakun_Resume_CV_P.pdf'
 import '../Styles/Download.css'
 
 const Download = () => {
     return (
         <div className='cvs'>
             <div className='mycv'>
-                <a target='_blank'  rel="noopener noreferrer" href="https://drive.google.com/drive/folders/1kqiEJf7IGDlWIvAXgLbaZnWRIEaCN5gi" className="mycvbutton">
-
+                <a  href={resume} download="Adelakun_Resume_CV_P.pdf" className="mycvbutton">
                     <small className='mycvsmall'>Download my cv</small>
                     <span className="button-icon">
                         <FiDownloadCloud />

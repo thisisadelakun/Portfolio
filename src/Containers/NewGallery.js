@@ -12,7 +12,8 @@ function NewGallery() {
         <Carousel className="newgallerry"  variant="dark" indicators={false} controls={true}>
             <Carousel.Item   interval={1000}>
                 <img
-                    width={50}
+
+                    className="d-block "
                     src={Projec2}
                     alt="First slide"
                 />
@@ -21,7 +22,7 @@ function NewGallery() {
 
             <Carousel.Item  interval={1000}>
                 <img
-                    className="d-block w-60"
+                    className="d-block "
                     src={Projec3}
                     alt="Project 3"
                 />
@@ -29,7 +30,7 @@ function NewGallery() {
 
             <Carousel.Item  interval={1000}>
                 <img
-                    className="d-block w-60"
+                    className="d-block "
                     src={Projec4}
                     alt="Project 4"
                 />
@@ -37,7 +38,7 @@ function NewGallery() {
 
             <Carousel.Item interval={1000}>
                 <img
-                    className="d-block w-60"
+                    className="d-block "
                     src={Projec1}
                     alt="Project 1"
                 />

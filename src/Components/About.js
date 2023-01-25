@@ -18,7 +18,6 @@ const About = () => {
                         <div>
                             <h1 className="about-heading">About Me</h1>
                         </div>
-
                         <p>
                             I am a Full Stack Web developer. I am also a  graduate of Science Laboratory Technology (B.Tech).
                             I am a person who is positive about every aspect of life.

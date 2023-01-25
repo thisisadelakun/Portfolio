@@ -198,5 +198,26 @@
     color: grey;
     overflow: hidden;
   }
+  .blob1 {
+    left: 50%;
+    top: 30%;
+  }
+  
+  .blob2 {
+    width: 100%;
+    display: flex;
+    opacity: 0.5;
+    position: absolute;
+    left: 0%;
+    top: 20%;
+  }
+
+}
+
+@media screen and (min-width:768px) {
+  .blob1 {
+    left: 50%;
+    top: 50%;
+  }
 
 }

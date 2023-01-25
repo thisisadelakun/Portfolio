@@ -8,9 +8,6 @@
 }
 
 .portfolio-col {
-
-  /* margin: auto; */
-  
   margin: 16px 16px 16px 16px;
   border: 0px solid;
   background: inherit;
@@ -24,7 +21,6 @@
   font-size: 1.5rem;
   font-weight: 700;
   padding: 1rem 0;
-  /* overflow: hidden; */
   font-family: 'Montserrat', sans-serif;
   color: #25b79f;
 }

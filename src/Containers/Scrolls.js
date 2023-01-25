@@ -5,7 +5,7 @@ import { FiChevronsDown } from 'react-icons/fi'
 const Scrolls = () => {
     return (
         <div className='scrolls'>
-            <div className="angle-down-icon animate__animated animate__shakeY animate__infinite  animate__slower	s">
+            <div className="angle-down-icon animate__animated animate__shakeY animate__infinite  animate__slower	3s animate__delay-2s	2s">
                 <div className='scrolling'>
                     <div className="scrolldown" >
                         <div className="chevrons">

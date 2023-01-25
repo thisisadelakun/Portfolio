@@ -1,16 +1,27 @@
-.newgallerry{
+.newgallerry {
     width: 80%;
     display: flex;
     justify-content: center;
     margin: auto;
     /* align-items: center; */
+
 }
+.d-block {
+    height: 120px;
+    width: 150px;
+}
+
 @media screen and (min-width:600px) {
-    .newgallerry{
+    .newgallerry {
         width: 70%;
         display: flex;
         justify-content: center;
         margin: auto;
         /* align-items: center; */
-    } 
+    }
+
+    .d-block {
+        height: 400px;
+        width: 200px;
+    }
 }

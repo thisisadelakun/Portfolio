@@ -68,7 +68,8 @@ function WithLabelExample() {
 
                 <div className="info">
                     <span className='infosss'>Learning UXD</span><br />
-
+                    <span className='infosss'>Good team working skills</span><br />
+                    <span className='infosss'>Analytical skills</span><br />
                 </div>
             </div>
 
