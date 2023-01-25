@@ -1,8 +1,6 @@
-import React from 'react'
+import React, { useState } from 'react'
 import '../Styles/MyProject.css'
-import { SiHtml5 } from 'react-icons/si'
-import { SiCss3 } from 'react-icons/si'
-import { SiJavascript } from 'react-icons/si'
+import { SiHtml5, SiCss3, SiJavascript, SiPython, SiDjango } from 'react-icons/si'
 import { GrReactjs } from 'react-icons/gr'
 import { RiExternalLinkLine } from 'react-icons/ri'
 import Projec1 from '../Assets/Projec1.jpg'
@@ -10,7 +8,7 @@ import Projec2 from '../Assets/flipcoinSS.jpg'
 import Projec3 from '../Assets/BoostrapSS.jpg'
 import Projec4 from '../Assets/Guesstheword1.jpg'
 import Projec5 from '../Assets/Loopstudio Screenshots.jpg'
-import { useState } from 'react'
+import Projec6 from '../Assets/PostList_SS.png'
 
 
 const MyProjects = () => {
@@ -34,7 +32,7 @@ const MyProjects = () => {
                                     <GrReactjs />
                                 </div>
                                 <h2>Crypto Trading Website</h2>
-                                <p>Build Using HTML,CSS,JS & Reactjs</p>
+                                <p>Built using HTML,CSS,JS & Reactjs</p>
                                 <div className='sourcing'>
                                     <button>
                                         <a href="https://github.com/thisisadelakun/TradExpress" target="blank">View source <RiExternalLinkLine /></a>
@@ -55,7 +53,7 @@ const MyProjects = () => {
                                     <SiJavascript />
                                 </div>
                                 <h2>Loopstudio Landing Page</h2>
-                                <p>Build Using HTML,CSS & JS</p>
+                                <p>Built using HTML,CSS & JS</p>
                                 <div className='sourcing'>
                                     <button>
                                         <a href="https://github.com/thisisadelakun/LoopStudio" target="blank">View source <RiExternalLinkLine /></a>
@@ -76,7 +74,7 @@ const MyProjects = () => {
                                     <SiJavascript />
                                 </div>
                                 <h2>Guess the Word game</h2>
-                                <p>Build Using HTML,CSS & JS</p>
+                                <p>Built using HTML,CSS & JS</p>
                                 <div className='sourcing'>
                                     <button>
                                         <a href="https://github.com/thisisadelakun/Guess-The-Word-Game" target="blank">View source <RiExternalLinkLine /></a>
@@ -97,7 +95,7 @@ const MyProjects = () => {
                                     <SiCss3 />
                                 </div>
                                 <h2>Game Centre Landing Page</h2>
-                                <p>Build Using HTML,CSS & Bootstrap</p>
+                                <p>Built using HTML,CSS & Bootstrap</p>
                                 <div className='sourcing'>
                                     <button>
                                         <a href="https://github.com/thisisadelakun/bootstrap-basic" target="blank">View source <RiExternalLinkLine /></a>
@@ -121,9 +119,8 @@ const MyProjects = () => {
                         <p className='works-arrow'>
                             Let's talk <br />
                             Want to get in touch or talk about a project?
-                            Feel free to contact me via email at
-                            <a className='contpage' href="mailto:thisisadelakun@gmail.com"> thisisadelakun@gmail.com  </a>
-                            or drop a line in the form at the <a className='contpage' href='#contact-me'>contact</a>
+                            Feel free to contact me via email at <br />
+                            <a className='contpage' href="mailto:thisisadelakun@gmail.com">thisisadelakun@gmail.com  </a>
                         </p>
 
                     </div>
@@ -136,6 +133,29 @@ const MyProjects = () => {
 
             <div>
                 <div className="proj-1">
+                    <img src={Projec6} alt='' />
+
+                    <div className="proj1-details">
+                        <div className='sisicon'>
+                            <SiHtml5 />
+                            <SiJavascript />
+                            < GrReactjs />
+                            <SiPython />
+                            <SiDjango />
+                        </div>
+                        <h2>Blog Post</h2>
+                        <p>Built using HTML, CSS, JS, Reactjs, Python & Django</p>
+                        <div className='sourcing'>
+                            <button>
+                                <a href="https://github.com/thisisadelakun/PostList" target="blank">View source <RiExternalLinkLine /></a>
+                            </button>
+                            <button>
+                                <a href="https://github.com/thisisadelakun/PostList" target="blank">Go Live <RiExternalLinkLine /></a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div className="proj-1">
                     <img src={Projec2} alt='' />
 
                     <div className="proj1-details">
@@ -145,7 +165,7 @@ const MyProjects = () => {
                             <SiJavascript />
                         </div>
                         <h2>Coin Flip Game</h2>
-                        <p>Build Using HTML,CSS & JS</p>
+                        <p>Built using HTML,CSS & JS</p>
                         <div className='sourcing'>
                             <button>
                                 <a href="https://github.com/thisisadelakun/coinFlipJS" target="blank">View source <RiExternalLinkLine /></a>
@@ -156,6 +176,7 @@ const MyProjects = () => {
                         </div>
                     </div>
                 </div>
+
             </div>
         )
 

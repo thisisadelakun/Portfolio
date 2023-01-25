@@ -20,7 +20,7 @@ const About = () => {
                         </div>
 
                         <p>
-                            I am Full Stack Web developer. I am also a  graduate of Science Laboratory Technology (B.Tech).
+                            I am a Full Stack Web developer. I am also a  graduate of Science Laboratory Technology (B.Tech).
                             I am a person who is positive about every aspect of life.
                             {less && <See />}
                             <span onClick={() => setLess(!less)} className='less-seen'> {less ? 'hide' : 'more...'}</span>

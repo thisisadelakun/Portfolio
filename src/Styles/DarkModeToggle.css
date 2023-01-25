@@ -11,7 +11,6 @@ body {
 }
 
 body.dark {
-    /* background-color: #000102e8; */
     background: #07374a;
     color: white;
 }
