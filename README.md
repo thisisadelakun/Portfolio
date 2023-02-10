@@ -13,7 +13,7 @@
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://adelakunportfolio.netlify.app/)
+- Live Site URL: [Go Live](https://adelakunportfolio.netlify.app/)
 
 - To Run the app in the development mode.\
   Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
@@ -35,7 +35,9 @@
 ## Author
 
 - Website - [Adelakun Abayomi](https://adelakunportfolio.netlify.app/)
-- GitHub -  [thisisadelakun](https://github.com/thisisadelakun)
+- GitHub -  [@thisisadelakun](https://github.com/thisisadelakun)
 - Twitter - [@thisisadelakun](https://www.twitter.com/thisisadelakun)
+
+
 
 
