@@ -114,15 +114,13 @@ const MyProjects = () => {
                         </div>
                     </div>
 
-
                     <div className='works-arrow'>
                         <p className='works-arrow'>
                             Let's talk <br />
                             Want to get in touch or talk about a project?
                             Feel free to contact me via email at <br />
-                            <a className='contpage' href="mailto:thisisadelakun@gmail.com">thisisadelakun@gmail.com  </a>
+                            <a className='contpage' href="mailto:thisisadelakun@gmail.com">adelakunabayomi123@gmail.com</a>
                         </p>
-
                     </div>
                 </div>
             </div>

@@ -17,28 +17,11 @@ const Contact = () => {
                     </p>
 
                     <div className='sub-contact-content'>
-                        <div>
-                            <p className='gothere'>
-                                Want to get in touch or talk about a project?
-                                Feel free to contact me via the form below
-                            </p>
-                            <form id='formcontents' action="">
-                                <input id='name' type="text" placeholder='Name' />
-                                <input id='subject' type="text" placeholder='Subject' />
-                                <input id='email' type="text" placeholder='Email' />
-                                <textarea id="messenger" name="freeform" rows="4" cols="50" placeholder='Enter your message here...'>
-
-                                </textarea>
-                                <input type="submit" value="Submit" className='submitbutton' />
-                            </form>
-                        </div>
-
                         <div className='sub-contact-content2'>
                             <div className='mail'>
-
                                 <p class="linking">Feel free to contact me via email</p>
-                                <a href="mailto:thisisadelakun@gmail.com">
-                                    <p className='mails'><MdEmail /> thisisadelakun@gmail.com</p>
+                                <a href="mailto:adelakunabayomi123@gmail.com">
+                                    <p className='mails'><MdEmail /> adelakunabayomi123@gmail.com</p>
                                 </a><br />
                                 <p class="links">Or find me on:</p>
                             </div>
