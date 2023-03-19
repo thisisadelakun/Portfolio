@@ -38,7 +38,7 @@ function NewGallery() {
 
             <Carousel.Item interval={1000}>
                 <img
-                    className="d-block "
+                    className="d-block"
                     src={Projec1}
                     alt="Project 1"
                 />
